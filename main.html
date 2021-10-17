@@ -13,16 +13,17 @@
         <span class="hename"> <strong> CLUB</strong>  </span>
     </header>
     <div class="navbar"> 
-        <div class=" baritem">ManU</div>
-        <div class=" baritem">ManC</div>
-        <div class=" baritem">Chelsea</div>
+        <div class=" baritem " onclick="ScrollMu()">ManU</div>
+        <div class="baritem " onclick="ScrollMc()" >ManC</div>
+        <div class=" baritem " onclick="ScrollChel()">Chelsea</div>
 
     </div>
-    <div class="Club"> 
+    <div class="Club">
+         <div class="MU">
         <h1> l. Manchester United </h1>
         <img class="logo1" alt="MU logo" src="https://upload.wikimedia.org/wikipedia/vi/thumb/a/a1/Man_Utd_FC_.svg/1200px-Man_Utd_FC_.svg.png">
         <br>
-        <table style="text-align: center;"> 
+        <table > 
             <tr>
                 <th class="text">Full name:</th>
                 <td class="text">Manchester United Football Club</td>
@@ -58,11 +59,12 @@
             </tr>
         </table>
     </div>
-    <div class="Club"> 
+    
+        <div class="MC">
         <h1> ll. Manchester City </h1>
         <img class="logo1" alt="MC logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png">
         <br>
-        <table style="text-align: center;"> 
+        <table > 
             <tr>
                 <th class="text">Full name:</th>
                 <td class="text">Manchester City Football Club</td>
@@ -100,13 +102,12 @@
                 </td>
             </tr>
         </table>
-        
     </div>
-    <div class="Club"> 
-        <h1> lll. Chelsea </h1>
+        <div class="Chel">
+        <h1 > lll. Chelsea </h1>
         <img class="logo1" alt="Chelsea logo" src="https://upload.wikimedia.org/wikipedia/vi/thumb/5/5c/Chelsea_crest.svg/1200px-Chelsea_crest.svg.png">
         <br>
-        <table style="text-align: center;"> 
+        <table > 
             <tr>
                 <th class="text">Full name:</th>
                 <td class="text">	Chelsea Football Club</td>
@@ -139,9 +140,12 @@
             </tr>
         </table>
     </div>
-    
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <script src="scrollbut.js"></script>
+</div>
 
+    <button onclick="topFunction()" id="Scrollbut" title="Go to top">
+        <img class="button" alt="top" src="https://cdn.icon-icons.com/icons2/1458/PNG/512/gouparrow_99749.png">
+    </button>
+    <script src="scrollbut.js"></script>
+      <script src="bar.js"> </script>
 </body>
 </html> 
