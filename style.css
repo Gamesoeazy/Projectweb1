@@ -1,0 +1,76 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.head{
+    text-align: center;
+}
+.hename{
+    font-size: 50px;
+    color: purple;
+    text-align: center;
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+.logo1{
+    display: block;
+    width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    background-color: purple;
+    justify-content: center;
+
+}
+.navbar > div{
+    color: white;
+    background-color: purple;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.baritem:hover{
+    background-color: rgb(202, 5, 186);
+}
+h1{
+    font-size: 40px;
+}
+table{
+    margin-left: 10%;
+
+}
+.text{
+    font-size: 20px;
+    margin-left: 10%;
+
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none; 
+    outline: none; 
+    background-color: red;
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; 
+  }
