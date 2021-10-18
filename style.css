@@ -27,17 +27,16 @@ body {
 .navbar{
     display: flex;
     position: sticky;
-    background-color: purple;
     justify-content: center;
+    background-color: purple;
 
 }
 .navbar > div{
     color: white;
     background-color: purple;
-    margin: 20px;
-    padding: 20px;
     font-size: 30px;
     cursor: pointer; 
+    padding: 5%;
 }
 
 .baritem:hover{
